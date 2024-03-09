@@ -1,0 +1,222 @@
+/* body {
+    background-image: url(../img/asaywdj_9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 100vh;
+  } */
+body {
+    overflow-y: auto;
+    background-image: url('../img/asaywdj_9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+  /* .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  } */
+:root{
+    --primary :#08378D;
+    --secondary1:#250A92;
+    --secondary2:#D4AC00;
+    --complement :#D48A00;
+    --black:#41454E;
+    --dark:#0C134F;
+    --white:#ffff;
+}
+
+/* .firs-slide{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+/* .banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../img/asaywdj_9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+} */
+.slider{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+}
+
+#slideimg{
+	width: 100%;
+	height: 100%;
+}
+
+.overlay{
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+}
+
+/* .overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(rgba(194, 201, 242, 0.7), rgba(0, 0, 0, 0.5));
+    overflow-y: auto;
+} */
+
+/* .overlay {
+    width: 100%;
+    height: 100vh;
+    position: fixed; 
+    top: 0;
+    background: linear-gradient(rgba(194, 201, 242, 0.7), rgba(0, 0, 0, 0.5));
+    overflow-y: auto; 
+} */
+
+.line{
+    height: 5px;
+    width: 100%;
+    background-color: var(--secondary2);
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px; } }
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px; } }
+    @media (min-width: 992px) {
+      .container {
+        max-width: 960px; } }
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px; } }
+
+.arial-label{
+    color: var(--white);
+}
+
+h1, h2, h3{
+    color: var(--white);
+}
+
+.content{
+    background: linear-gradient(rgba(194, 201, 242, 0.7), rgba(0, 0, 0, 0.5));
+}
+
+/* .content {
+    overflow-y: auto; 
+} */
+
+/* .content {
+    overflow-y: auto;
+    max-height: calc(100vh - 50px); 
+} */
+
+.navbar{
+    background-color: var(--dark);
+    /* color: var(--white); */
+}
+
+.navbar-brand{
+    color: var(--secondary2);
+}
+
+.navbar-brand:hover{
+    color: var(--white);
+}
+
+.nav-link{
+    color: var(--white);
+}
+
+.nav-link:hover{
+    color: var(--secondary2);
+}
+
+/* .nav-link.active {
+    background-color: var(--white);
+    color: var(--primary);
+    border-radius: 5px;
+    display: inline-block;
+} */
+  
+/* .nav-item{
+    color: var(--white);
+}
+.nav-item.hover{
+    color: var(--secondary2);
+} */
+
+.dropdown-menu {
+    white-space: normal;
+}
+  
+.btn-outline-light{
+    background-color: var(--white);
+    border : 1px solid;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+  
+.btn-outline-light:hover{
+    background-color: var(--primary);
+    border : 1px solid;
+    border-color: var(--secondary2);
+    color: var(--white);
+}
+  
+.navbar-toggler{
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: var(--white);
+    border: 1px solid var(--secondary2);
+    border-radius: 0.25rem;
+    color: var(--secondary2);
+}
+  
+.navbar-toggler:hover{
+    background-color: var(--white);
+    border: 1px solid var(--secondary2);
+
+}
+  
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    vertical-align: middle;
+    content: "";
+    background: var(--bs-navbar-toggler-icon-bg);
+    color-scheme: var(--white);
+    background-size: 100% 100%;
+}
+
+.searchbox .form-control{
+    color: var(--secondary2);
+}
+
+.no-decoration{
+    text-decoration: none;
+}
+
+.box{
+    border: solid var(--secondary2) ;
+    border-radius: 0.5rem;
+    background-color: var(--dark);
+    color: var(--secondary2);
+}
